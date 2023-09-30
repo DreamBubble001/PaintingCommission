@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace PaintingCommission.Controllers
 {
-    public class ProfileController : Controller
+    public class ArtistController : Controller
     {
-        // GET: Profile
+        // GET: Artist
         #region 繪師簡介
-        public ActionResult Profile()
+        public ActionResult Artist()
         {
             ViewBag.Message = "Your application description page.";
 
