@@ -6,14 +6,16 @@ using System.Web.Mvc;
 
 namespace PaintingCommission.Controllers
 {
-    public class HomeController : Controller
+    public class ProfileController : Controller
     {
-        #region 首頁
-        public ActionResult Index()
+        // GET: Profile
+        #region 繪師簡介
+        public ActionResult Profile()
         {
+            ViewBag.Message = "Your application description page.";
+
             return View();
         }
         #endregion
-
     }
 }

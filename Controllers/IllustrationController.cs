@@ -6,14 +6,16 @@ using System.Web.Mvc;
 
 namespace PaintingCommission.Controllers
 {
-    public class HomeController : Controller
+    public class IllustrationController : Controller
     {
-        #region 首頁
-        public ActionResult Index()
+        // GET: Illustration
+        #region 作品集
+        public ActionResult Illustration()
         {
+            ViewBag.Message = "Your contact page.";
+
             return View();
         }
         #endregion
-
     }
 }
